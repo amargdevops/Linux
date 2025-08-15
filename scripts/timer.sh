@@ -1,4 +1,5 @@
 #!/bin/bash
+# Countdown Timer Script
 COUNTER=$1
 COUNTER=$(($COUNTER * 60))
 minusone(){
