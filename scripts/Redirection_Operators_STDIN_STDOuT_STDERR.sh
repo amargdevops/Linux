@@ -12,4 +12,5 @@ cat java_version.txt
 cat java_errors.txt
 #1> successful output
 #2> error output
-#&>file_name redirects both STDOUT and STDERR to the same file
+#&>file_name redirects both STDOUT and STDERR to the same file 
+echo "This is a message to both STDOUT and STDERR" &> combined_output.txt
